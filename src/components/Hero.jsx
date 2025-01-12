@@ -8,11 +8,7 @@ import gameImage from './game.jpg';
 import sqlImage from './sql.jpg';
 import binImage from './bin.jpg';
 import snakeImage from './snake.jpg';
-import COriginal from 'devicons-react/lib/icons/COriginal'; // Importing the C icon
-import JavaOriginal from 'devicons-react/lib/icons/JavaOriginal'; // Importing the C icon
-import Python from 'devicons-react/lib/icons/PythonOriginal'; // Importing the C icon
-import JS from 'devicons-react/lib/icons/JavaScriptOriginal'; // Importing the C icon
-import ReactOriginal from 'devicons-react/lib/icons/ReactOriginal';
+
 import HTML from 'devicons-react/lib/icons/Html5Original';
 import CSS from 'devicons-react/lib/icons/Css3Original';
 import { FaGithub, FaLinkedin, FaFileAlt, FaFile} from 'react-icons/fa';
@@ -142,13 +138,7 @@ function Hero() {
             <div ref={skillsRef} id="skills" className="section">
                 
                 <div>
-                <JavaOriginal size={100} /> <span></span>
-                <COriginal size={100} /> <span></span>
-                <Python size={100} /> <span></span>
-                <JS size={100} /> <span></span>
-                <ReactOriginal size={100} /> <span></span>
-                <HTML size={100} /> <span></span>
-                <CSS size={100} /> <span></span>
+               
                 </div>
             </div>
 
